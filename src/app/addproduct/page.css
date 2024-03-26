@@ -1,0 +1,37 @@
+.input{
+    height: 35px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.btn{
+    background-color: skyblue;
+    color: white;
+    border: 0;
+    height: 35px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all;
+}
+
+.btn:hover{
+    scale: 99%;
+    transition: 0.5;
+}
+
+.btn:active{
+    background-color: rgb(95, 167, 196);
+}
+
+.add-product{
+    margin-top: 100px;
+    text-align: -webkit-center;
+}
